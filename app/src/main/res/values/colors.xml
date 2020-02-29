@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="BluePrimary">#0072ce</color>
+    <color name="BluePrimaryDark">#0053a0</color>
+    <color name="BlueAccent">#ffff</color>]
+    <color name="BlueSvetla">#ccccff</color>
+
+    <color name="GreenPrimary2">#689F38</color>
+    <color name="GreenPrimaryDark2">#689F38</color>
+    <color name="GreenAccent2">#ffff</color>
+
+    <color name="GreyPrimary3">#455A64</color>
+    <color name="GreyPrimaryDark3">#607D8B</color>
+    <color name="GreyAccent3">#ffff</color>
+
+    <color name="GreyPrimary4">#512DA8</color>
+    <color name="GreyPrimaryDark4">#673AB7</color>
+    <color name="GreyAccent4">#ffff</color>
+
+    <color name="OrangePrimary5">#F57C00</color>
+    <color name="OrangePrimaryDark5">#FF9800</color>
+    <color name="OrangeAccent5">#ffff</color>
+
+    <color name="playerColorPurple">#673AB7</color>
+    <color name="playerColorBlue">#2196F3</color>
+    <color name="playerColorYellow">#FFCA28</color>
+    <color name="playerColorGreen">#8BC34A</color>
+    <color name="playerColorBronw">#795548</color>
+    <color name="playerColorRed">#EF5350</color>
+    <color name="playerColorOrange">#FF9800</color>
+
+    <color name="blueformap">#d4ebf2</color>
+
+</resources>

@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/BluePrimary"
+                android:width="2dp"></stroke>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/padlock"></item>
+</layer-list>

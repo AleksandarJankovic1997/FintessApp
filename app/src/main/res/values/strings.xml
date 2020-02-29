@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="mapbox_access_token">pk.eyJ1IjoiYWxla3NhbmRhcnIiLCJhIjoiY2swcDFqN29sMGZicjNmcXU4Y2hvY3piZCJ9.TyvnzCWq9FfYE6TUGeIH3w</string>
+
+    <string name="app_name">myapplication</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">1347892468719647</string>
+    <string name="fb_login_protocol_scheme">fb1347892468719647</string>
+
+    <string name="appname">GoFast</string>
+
+    <string name="goAsGuest">Go as guest</string>
+
+    <string name="enter_weight">Enter your weight</string>
+    <string name="enter_height">Enter your height</string>
+    <string name="enterF_N">Enter your first name</string>
+    <string name="enterL_N">Enter your last name</string>
+    <string name="choose_C">Choose your color</string>
+    <string name="enterAges">Enter your age</string>
+    <string name="enterN_N">Enter your nickname</string>
+    <string name="guest_back">Back</string>
+    <string name="go_as_guest">Go as guest</string>
+
+    <string name="profile">profile</string>
+    <string name="settings">settings</string>
+    <string name="goalone">goalone</string>
+    <string name="squadupp">squadupp</string>
+
+    <string name="startbutton">START</string>
+    <string name="pausebutton">PAUSE</string>
+    <string name="finishbutton">FINISH</string>
+    <string name="totaltime">TOTAL TIME</string>
+    <string name="totaldistance">TOTAL DISTANCE</string>
+    <string name="totalsteps">TOTAL STEPS</string>
+    <string name="totalcalories">TOTAL CALORIES</string>
+    <string name="member">MEMBERS OF YOUR TEAM:</string>
+
+    <string name="gender">Gender:</string>
+    <string name="city">City:</string>
+    <string name="county">Country:</string>
+    <string name="age">Age:</string>
+    <string name="nickname">Nickname:</string>
+    <string name="totalstepstoday">Total steps today:</string>
+    <string name="seeyourstatistic"> See your statistics  </string>
+
+    <string name="personalstats">Personal statistics</string>
+    <string name="teamstats">Stats in team</string>
+    <string name="overallstats">Personal overall statistic</string>
+    <string name="totalstepsthisweek">Total steps this week:</string>
+    <string name="totalstepsthismonth">Total steps this month:</string>
+    <string name="totalstepsthisYear">Total steps this year:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

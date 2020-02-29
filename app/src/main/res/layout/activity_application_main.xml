@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myapplication.Activities.LoginActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mobile_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:background="@color/BluePrimary"
+        android:textAlignment="center">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textSize="20dp"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ime aplikacije"
+                android:textColor="@color/BlueAccent">
+            </TextView>
+            <Spinner
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/mobile_tab_layout"
+        app:tabRippleColor="@color/BluePrimary"
+        app:tabIndicatorColor="@color/BluePrimary"
+        app:tabTextColor="@color/BluePrimary"
+        android:layout_width="match_parent"
+        app:tabSelectedTextColor="@color/BluePrimaryDark"
+        android:layout_height="wrap_content">
+        <com.google.android.material.tabs.TabItem
+            android:text="Profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:text="Solo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.google.android.material.tabs.TabItem>
+        <com.google.android.material.tabs.TabItem
+            android:text="Team"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.google.android.material.tabs.TabItem>
+    </com.google.android.material.tabs.TabLayout>
+
+    <FrameLayout
+        android:background="@color/BlueAccent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/mobile_framelayout1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </FrameLayout>
+
+
+</LinearLayout>

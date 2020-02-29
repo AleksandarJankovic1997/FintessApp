@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=  ".myapplication.Fragments.GuestFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:id="@+id/linearlayout"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/BluePrimary"
+                android:id="@+id/guest_first_name"
+                android:text="@string/enterF_N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:id="@+id/guest_entered_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/BluePrimary"
+                android:id="@+id/guest_last_name"
+                android:text="@string/enterL_N"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:id="@+id/guest_entered_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/BluePrimary"
+                android:id="@+id/guest_nickname"
+                android:text="@string/enterN_N"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:id="@+id/guest_entered_nickname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <TextView
+                android:textSize="20dp"
+                android:textColor="@color/BluePrimary"
+                android:id="@+id/guest_age"
+                android:text="@string/enterAges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:inputType="number"
+                android:id="@+id/guest_entered_ages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+            <TextView
+                android:textSize="20sp"
+                android:text="@string/enter_weight"
+                android:textColor="@color/BluePrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:inputType="number"
+                android:id="@+id/guest_entered_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+            <TextView
+                android:textSize="20sp"
+                android:text="@string/enter_height"
+                android:textColor="@color/BluePrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+            <EditText
+                android:inputType="number"
+                android:id="@+id/guest_entered_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+            <TextView
+                android:visibility="gone"
+                android:textSize="20dp"
+                android:textColor="@color/BluePrimary"
+                android:id="@+id/guest_color"
+                android:text="@string/choose_C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <Spinner
+                android:visibility="gone"
+                android:id="@+id/guest_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/guest_return"
+                android:paddingLeft="10sp"
+                android:textSize="30sp"
+                android:textColor="@color/BluePrimary"
+                android:background="@color/BlueAccent"
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guest_back">
+
+            </Button>
+            <Button
+                android:id="@+id/guest_go_as_guest"
+                android:paddingRight="10sp"
+                android:textSize="30sp"
+                android:textColor="@color/BluePrimary"
+                android:background="@color/BlueAccent"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_as_guest">
+            </Button>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
